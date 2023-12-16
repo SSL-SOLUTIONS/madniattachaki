@@ -1,0 +1,54 @@
+.fivth {
+    font-family: sans-serif;
+}
+
+.bg-light {
+    padding: 20px;
+}
+
+.custo-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-container {
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 0; /* Initial opacity for animation */
+    transform: translateY(20px); /* Initial position for animation */
+    transition: opacity 3s ease, transform 3s ease-in-out;
+}
+
+.product-container.show {
+    opacity:  1; /* Final opacity for animation */
+    transform: translateY(0); /* Final position for animation */
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.hasa , .ranga , .aawf {
+    color: rgb(88, 82, 82);
+    margin: 0;
+}
+
+.hasa {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ranga {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.aawf {
+    font-size: 18px;
+    color: rgb(88, 82, 82);
+    text-decoration: none;
+}

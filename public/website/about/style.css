@@ -1,0 +1,85 @@
+.who {
+    font-size: 60px;
+    word-spacing: 10px;
+}
+
+.we {
+    color: rgba(255, 48, 0, 1);
+}
+
+.cp {
+    color: rgba(255, 48, 0, 1);
+    font-size: 30px;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+.para {
+    font-weight: 500;
+    word-spacing: 10px;
+    justify-content: center;
+    color: rgba(161, 161, 161, 1);
+}
+
+.c-info {
+    color: rgba(255, 48, 0, 1);
+    word-spacing: 10px;
+}
+
+.ab-video {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* 16:9 aspect ratio for responsive video */
+}
+
+.ab-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.icony {
+    font-size: 30px;
+}
+
+.status {
+    font-size: 0.8em;
+    color: black;
+    font-weight: bold;
+}
+
+.private {
+    font-size: 0.8em;
+    margin-top: -10px;
+}
+
+.icon-hover :hover {
+    color: rgba(255, 48, 0, 1);
+    ;
+}
+
+.contain {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    width: 80%;
+    margin: 80px auto 0;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.our {
+    font-size: 4rem;
+    word-spacing: 10px;
+    color: rgba(255, 48, 0, 1);
+}
+
+.para2 {
+    color: rgba(161, 161, 161, 1);
+}
