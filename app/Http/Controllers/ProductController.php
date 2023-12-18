@@ -60,7 +60,7 @@ class ProductController extends Controller
            $product = Product::where('id',$id)->first();
            if($request->has('image')){
             $imageName = time().'.'.$request->image->extension();  
-            $request->image->move(public_path('admin/images/products'), $imageName);
+            $request->image->move(public_path('admin/images/products/'), $imageName);
             $product->image = $imageName;
            }
            $product->title = $request->title;

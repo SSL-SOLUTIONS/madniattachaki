@@ -196,75 +196,24 @@ background-color: red;
     <div class="content-container">
         <div class="slider-container">
             <div class="slider">
-                <div class="slide">
-                    <img src="{{('website/2ndhome/images/12.jpg')}}" alt="Product 1" class="pehli">
-                    <button class="arrow prev" onclick="prevSlide()">&lt;</button>
-                    <button class="arrow next" onclick="nextSlide()">&gt;</button>
-                    <p class="titles">
-                        |Sunridge Value Bundle|
-                    </p>
-                    
-                        <a href="{{route('order_now')}}" class="bantn">BUY NOW</a>
-                </div>
-                <div class="slide">
-                    <img src="{{asset('website/2ndhome/images/05.jpg')}}" alt="Product 2" class="pehli">
-                    <button class="arrow prev" onclick="prevSlide()">&lt;</button>
-                    <button class="arrow next" onclick="nextSlide()">&gt;</button>
-                    <p class="titles">
-                        |Sunridge Value Bundle|
-                    </p>
-                    
-                        <a href="{{route('order_now')}}" class="bantn">BUY NOW</a>
-                    
-                </div>
-                <div class="slide">
-                    <img src="{{asset('website/2ndhome/images/06.jpg')}}" alt="Product 3" class="pehli">
-                    <button class="arrow prev" onclick="prevSlide()">&lt;</button>
-                    <button class="arrow next" onclick="nextSlide()">&gt;</button>
-                    <p class="titles">
-                        |Sunridge Lentils And Pulses|
-                    </p>
-                        <a href="" class="bantn">BUY NOW</a>
-                    
-                </div>
-                <div class="slide">
-                    <img src="{{asset('website/2ndhome/images/07.jpg')}}" alt="Product 4" class="pehli">
-                    <button class="arrow prev" onclick="prevSlide()">&lt;</button>
-                    <button class="arrow next" onclick="nextSlide()">&gt;</button>
-                    <p class="titles">
-                        |Sunridge Premium Quality Besan|
-                    </p>
-                    <a href="{{route('order_now')}}" class="bantn">BUY NOW</a>
-                </div>
-                <div class="slide">
-                    <img src="{{asset('website/2ndhome/images/08.jpg')}}" alt="Product 5" class="pehli">
-                    <button class="arrow prev" onclick="prevSlide()">&lt;</button>
-                    <button class="arrow next" onclick="nextSlide()">&gt;</button>
-                    <p class="titles">
-                        | Sunridge Iodized Salt |
-                    </p>
-                    <a href="{{route('order_now')}}" class="bantn ">BUY NOW</a>
-
-                </div>
-                <div class="slide">
-                    <img src="{{asset('website/2ndhome/images/rice-banner.jpg')}}" alt="Product 6" class="pehli">
-                    <button class="arrow prev" onclick="prevSlide()">&lt;</button>
-                    <button class="arrow next" onclick="nextSlide()">&gt;</button>
-                    <p class="titles">
-                        | Sunridge Premium Quality Rice |
-                    </p>
-                    <a href="{{route('order_now')}}" class="bantn ">BUY NOW</a>
-                </div>
+                <!-- Use a for loop to generate slides dynamically -->
+                @foreach(\App\Models\Product::paginate(4) as $product)
+                    <div class="slide">
+                        <img src="{{ asset('admin/images/products/' . $product->image) }}"  class="pehli">
+                        <button class="arrow prev" onclick="prevSlide()">&lt;</button>
+                        <button class="arrow next" onclick="nextSlide()">&gt;</button>
+                        <p class="titles">
+                            {{$product->title}}
+                        </p>
+                        <a href="{{ route('order_now') }}" class="bantn">BUY NOW</a>
+                    </div>
+                @endforeach
             </div>
         </div>
     </div>
     <div class="indicators">
-        <div class="indicator" onclick="showSlide(0)"></div>
-        <div class="indicator" onclick="showSlide(1)"></div>
-        <div class="indicator" onclick="showSlide(2)"></div>
-        <div class="indicator" onclick="showSlide(3)"></div>
-        <div class="indicator" onclick="showSlide(4)"></div>
-        <div class="indicator" onclick="showSlide(5)"></div>
+        <!-- Generate indicators dynamically -->
+       
     </div>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -55,7 +55,10 @@
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                             Products
                         </a>
-                       
+                        <a class="nav-link" href="{{url('contactus')}}">
+                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                            Messages
+                        </a>
                     </div>
                 </div>
             </nav>

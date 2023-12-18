@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class WebsiteController extends Controller
@@ -15,7 +16,8 @@ class WebsiteController extends Controller
 
     }
     public function products(){
-        return view('products');
+        $products =Product::all();
+        return view('products' ,get_defined_vars());
     }
     public function order_now(){
         return view('ordernow');

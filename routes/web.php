@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ContactusController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\WebsiteController;
 use Illuminate\Support\Facades\Auth;
@@ -28,7 +29,7 @@ Route::get('about', [WebsiteController::class, 'about'])->name('about');
 Route::get('contact',[ WebsiteController::class, 'contact'])->name('contact');
 Route::get('products',[ WebsiteController::class, 'products'])->name('products');
 Route::get('order_now',[WebsiteController::class,'order_now'])->name('order_now');
+Route::resource('contactus', ContactusController::class);
 
 Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

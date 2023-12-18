@@ -133,7 +133,22 @@
             <div class="row">
                 <div class="col-12 col-md-6 order-md-2 form-container mx-auto text-center">
                     <!-- Contact Form -->
-                    <form>
+                    @if ($errors->any())
+									<div class="alert alert-danger">
+										<ul>
+											@foreach ($errors->all() as $error)
+											<li>{{ $error }}</li>
+											@endforeach
+										</ul>
+									</div>
+									@endif
+									@if(session('success'))
+									<div class="alert alert-success">
+										{{ session('success') }}
+									</div>
+									@endif
+                    <form action="{{route('contactus.store')}}" method="POST">
+					@csrf
                         <div class="form-row">
                             <div class="form-group col-md-12">
                                 <label for="name"></label>
@@ -154,7 +169,7 @@
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="message"></label>
-                                <input type="text" class="form-control" id="message" name="message"
+                                <input type="text" class="form-control" id="subject" name="subject"
                                     placeholder="Message Subject" required
                                     style="border: 1px solid rgba(255, 48,0, 1);">
                             </div>
