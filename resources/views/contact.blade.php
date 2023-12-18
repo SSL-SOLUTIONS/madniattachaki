@@ -12,6 +12,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 <link rel="stylesheet" href="{{asset('website/navbar/fonts/icomoon/style.css')}}">
+<link rel="icon" type="image/jpeg" href="{{ asset('website/favicon.jpeg') }}">
      
         <style>
             .cliak {

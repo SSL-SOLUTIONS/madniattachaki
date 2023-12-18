@@ -20,7 +20,9 @@
         <div class="product-container">
             <h1 class="hasa">{{$product->title}}</h1>
             <p class="ranga">{{$product->description}}</p>
-            
+            <a href="{{route('order_now')}}">
+            <button class="btn btn-primary">Buy Now</button>
+            </a>
             <img src="{{asset('admin/images/products/' . $product->image)}}" alt="" class="img-fluid">
         </div>
        @endforeach

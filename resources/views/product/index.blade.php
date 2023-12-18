@@ -1,4 +1,5 @@
 <!-- resources/views/products/index.blade.php -->
+<link rel="icon" type="image/jpeg" href="{{ asset('website/favicon.jpeg') }}">
 
 @extends('admin') <!-- Assuming you have a master layout -->
 

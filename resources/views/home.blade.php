@@ -1,3 +1,4 @@
+<link rel="icon" type="image/jpeg" href="{{ asset('website/favicon.jpeg') }}">
 @extends('layouts.app')
 
 @section('content')

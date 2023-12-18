@@ -11,7 +11,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-
+    <link rel="icon" type="image/jpeg" href="{{ asset('website/favicon.jpeg') }}">
     <style>
         .mb-icon {
             font-size: x-large;

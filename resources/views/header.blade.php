@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="{{asset('website/navbar/css/bootstrap.min.css')}}">
     <!-- Style -->
     <link rel="stylesheet" href="{{asset('website/navbar/css/style.css')}}">
+    <link rel="icon" type="image/jpeg" href="{{ asset('website/favicon.jpeg') }}">
     <style>
       .navbody{
           margin: 0px;

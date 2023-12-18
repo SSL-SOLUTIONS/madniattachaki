@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" type="image/jpeg" href="{{ asset('website/favicon.jpeg') }}">
+    
     <title>Document</title>
     <style>
         .bod {
@@ -142,8 +144,8 @@
                 <div class="col-md-6 col-lg-6">
                     <label for="city" style="text-align: start;"><b>City</b><span
                             style="color: rgba(255,48,0,1);"><b>*</b></span></label>
-                    <select id="city" name="city" class="form-control orange-border" required placeholder="choose...">
-                        <option disabled>Choose</option>
+                            <select id="city" name="city" class="form-control orange-border" required placeholder="choose...">
+                        <option disabled selected hidden>Choose...</option>
                         <option value="city1">Karachi</option>
                         <option value="city2">Lahore</option>
                         <option value="city3">Islamabad</option>
@@ -366,13 +368,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 ">
-                    <h1 class="enchhy"><b>SUB TOTAL: RS 0</b></h1>
-                    <h1 style="text-align: left; font-size: 18px; font-weight: 500;"><b>Delivery Charges: Rs 100</b></h1>
-                    <h1 class="enchhy"><b>TOTAL: Rs 100</b></h1>
-                        <a href=""  class="btn btn danger" style="background-color: rgba(255, 48, 0, 1); width: 100%; padding: 10px; color: white; margin-top: 30px;">SUBMIT</a>
-                </div>
-            </div>
+             <div class="col-lg-12">
+        <h1 class="enchhy"><b>SUB TOTAL: <span id="subtotal">RS 0</span></b></h1>
+        <h1 style="text-align: left; font-size: 18px; font-weight: 500;"><b>Delivery Charges: Rs 100</b></h1>
+        <h1 class="enchhy"><b>TOTAL: <span id="total">Rs 100</span></b></h1>
+        <a href="#" id="submitBtn" class="btn btn danger" style="background-color: rgba(255, 48, 0, 1); width: 100%; padding: 10px; color: white; margin-top: 30px;">SUBMIT</a>
+    </div>
+</div>
+
         </form>
     </div>
 
@@ -382,6 +385,46 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+    $(document).ready(function () {
+        // Event listener for package checkboxes
+        $('input[type="checkbox"]').on('change', function () {
+            updateTotal();
+        });
+
+        // Event listener for quantity radio buttons
+        $('input[type="radio"]').on('change', function () {
+            updateTotal();
+        });
+
+        // Function to update subtotal and total
+        function updateTotal() {
+            var subtotal = 0;
+
+            // Iterate through selected packages and calculate subtotal
+            $('input[type="checkbox"]:checked').each(function () {
+                var price = parseFloat($(this).closest('li').find('b').text());
+                var quantity = parseInt($('input[type="radio"]:checked').closest('li').find('span').text());
+                subtotal += price * quantity;
+            });
+
+            // Update subtotal and total
+            $('#subtotal').text('RS ' + subtotal);
+            $('#total').text('Rs ' + (subtotal + 100)); // Assuming delivery charges are fixed at Rs 100
+        }
+
+        // Event listener for the submit button (you can customize this part)
+        $('#submitBtn').on('click', function (e) {
+            e.preventDefault();
+            // Add your logic to handle the submission here
+            alert('Order submitted!');
+        });
+    });
+</script>
+
+
+
 </body>
 @include('footer')
 </html>

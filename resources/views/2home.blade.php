@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{asset('website/2ndhome/style.css')}}">
 
 <link rel="stylesheet" href="{{asset('website/navbar/fonts/icomoon/style.css')}}">
+<link rel="icon" type="image/jpeg" href="{{ asset('website/favicon.jpeg') }}">
 
     <title>Madni Atta Chakki</title>
     <style>

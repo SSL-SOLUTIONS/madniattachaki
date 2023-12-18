@@ -1,4 +1,5 @@
 <!-- resources/views/products/create.blade.php -->
+<link rel="icon" type="image/jpeg" href="{{ asset('website/favicon.jpeg') }}">
 
 @extends('admin') 
 @section('content')
