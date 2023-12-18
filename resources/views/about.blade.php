@@ -23,12 +23,12 @@
             <h1 class="who text-center mt-3">WHO <span class="we">WE ARE?</span></h1>
 
             <h1 class="cp">COMPANY PROFILE</h1>
-            <p class="text-center para">Unity Foods acquired Sunridge in 2020, with its first production being Sunridge
-                Whole Wheat Flour. Sunridge Foods began its launch operations from Port Qasim, Karachi in 2015 and
+            <p class="text-center para">Unity Foods acquired Madni Atta in 2020, with its first production being Madni Atta
+                Whole Wheat Flour. Madni Atta Foods began its launch operations from Port Qasim, Karachi in 2015 and
                 launched
-                its first product in 2017 by the name of Sunridge Whole Wheat Flour. Over the years, it has been
+                its first product in 2017 by the name of Madni Atta Whole Wheat Flour. Over the years, it has been
                 successfully producing high quality whole wheat flour with all its natural fiber, vitamins and minerals,
-                fulfilling a major portion of every household’s nutritional needs. Sunridge Chakki Atta is produced in
+                fulfilling a major portion of every household’s nutritional needs. Madni Atta Chakki Atta is produced in
                 Pakistan’s first and only state-of-the-art PESA mill – the latest Swiss technology delivering superior
                 quality flour.
 
@@ -39,7 +39,7 @@
                 customers
                 that their rotis will remain soft and fresh for 6 hours. This claim is also backed by independent lab
                 tests,
-                making Sunridge the only flour brand available nationwide with unparalleled quality. The brand has a
+                making Madni Atta the only flour brand available nationwide with unparalleled quality. The brand has a
                 distribution footprint across 52 towns nationwide makes us proud to be a part of every household.</p>
         </div>
     </div><br>

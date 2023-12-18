@@ -113,7 +113,7 @@
 
 <body class="bod">
     <div class="text-center">
-    <h1><b class="smjh">SUNRIDGE ONLINE</b></h1>
+    <h1><b class="smjh">Madni Atta ONLINE</b></h1>
     <h1><b class="ovde">ORDER FORM</b></h1>
     </div>
 
@@ -166,167 +166,167 @@
                                     (Rs.)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Super Fine - 5 kg
+                            <input type="checkbox" id="package3" class="form-check-input">
+                            <label for="package3" class="form-check-label"><span> Super Fine - 5 kg
                                     (Rs.)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Super Fine - 10 kg
+                            <input type="checkbox" id="package4" class="form-check-input">
+                            <label for="package4" class="form-check-label"><span> Super Fine - 10 kg
                                     (Rs.)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge White Chakki - 5 kg
+                            <input type="checkbox" id="package5" class="form-check-input">
+                            <label for="package5" class="form-check-label"><span> White Chakki - 5 kg
                                     (Rs.)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge White Chakki - 10 kg(Rs.)</span></label>
+                            <input type="checkbox" id="package6" class="form-check-input">
+                            <label for="package6" class="form-check-label"><span> White Chakki - 10 kg(Rs.)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Digestive Atta - 2 kg(Rs.)</span></label>
+                            <input type="checkbox" id="package7" class="form-check-input">
+                            <label for="package7" class="form-check-label"><span> Digestive Atta - 2 kg(Rs.)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Digestive Atta - 5 kg(Rs.)</span></label>
+                            <input type="checkbox" id="package8" class="form-check-input">
+                            <label for="package8" class="form-check-label"><span> Digestive Atta - 5 kg(Rs.)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Maida - 500 gm(Rs.)</span></label>
+                            <input type="checkbox" id="package9" class="form-check-input">
+                            <label for="package9" class="form-check-label"><span> Maida - 500 gm(Rs.)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Maida - 1 kg(Rs.)</span></label>
+                            <input type="checkbox" id="package10" class="form-check-input">
+                            <label for="package10" class="form-check-label"><span> Maida - 1 kg(Rs.)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Maida - 1x6 kg(Rs.)</span></label>
+                            <input type="checkbox" id="package11" class="form-check-input">
+                            <label for="package11" class="form-check-label"><span> Maida - 1x6 kg(Rs.)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Maida - 500x12 gm(Rs.)</span></label>
+                            <input type="checkbox" id="package12" class="form-check-input">
+                            <label for="package12" class="form-check-label"><span> Maida - 500x12 gm(Rs.)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Maida - 1x12 kg(Rs.)</span></label>
+                            <input type="checkbox" id="package13" class="form-check-input">
+                            <label for="package13" class="form-check-label"><span> Maida - 1x12 kg(Rs.)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Basmati Rice-5 kg (Rs. <b style="color: rgba(255, 48,0, 1);">2675</b>)</span></label>
+                            <input type="checkbox" id="package14" class="form-check-input">
+                            <label for="package14" class="form-check-label"><span> Basmati Rice-5 kg (Rs. <b style="color: rgba(255, 48,0, 1);">2675</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge  Basmati Rice - 1kg (Rs.<b style="color: rgba(255, 48,0, 1);">515</b>)</span></label>
+                            <input type="checkbox" id="package15" class="form-check-input">
+                            <label for="package15" class="form-check-label"><span>  Basmati Rice - 1kg (Rs.<b style="color: rgba(255, 48,0, 1);">515</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Basmati Rice - kg (Rs.<b style="color: rgba(255, 48,0, 1);">2560</b>)
+                            <input type="checkbox" id="package16" class="form-check-input">
+                            <label for="package16" class="form-check-label"><span> Basmati Rice - kg (Rs.<b style="color: rgba(255, 48,0, 1);">2560</b>)
                                 </span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Barkat Rice - 1 kg
+                            <input type="checkbox" id="package17" class="form-check-input">
+                            <label for="package17" class="form-check-label"><span> Barkat Rice - 1 kg
                                     (Rs.<b style="color: rgba(255, 48,0, 1);">280</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Barkat Rice - 5kg
+                            <input type="checkbox" id="package18" class="form-check-input">
+                            <label for="package18" class="form-check-label"><span> Barkat Rice - 5kg
                                     (Rs.<b style="color: rgba(255, 48,0, 1);">1390</b>) </span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Sella Gold Rice - 1 kg
+                            <input type="checkbox" id="package19" class="form-check-input">
+                            <label for="package19" class="form-check-label"><span> Sella Gold Rice - 1 kg
                                     (Rs.<b style="color: rgba(255, 48,0, 1);">450</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Sella Gold Rice - 5 kg (Rs.<b style="color: rgba(255, 48,0, 1);">2240</b>)</span></label>
+                            <input type="checkbox" id="package20" class="form-check-input">
+                            <label for="package20" class="form-check-label"><span> Sella Gold Rice - 5 kg (Rs.<b style="color: rgba(255, 48,0, 1);">2240</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Basmati Rice-1 kg(Rs.<b style="color: rgba(255, 48,0, 1);">260</b>)</span></label>
+                            <input type="checkbox" id="package21" class="form-check-input">
+                            <label for="package21" class="form-check-label"><span> Basmati Rice-1 kg(Rs.<b style="color: rgba(255, 48,0, 1);">260</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Umdah Rice-       5 kg (Rs.<b style="color: rgba(255, 48,0, 1);">1290</b>)</span></label>
+                            <input type="checkbox" id="package22" class="form-check-input">
+                            <label for="package22" class="form-check-label"><span> Umdah Rice-       5 kg (Rs.<b style="color: rgba(255, 48,0, 1);">1290</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Daal Moong - 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);">180</b>)</span></label>
+                            <input type="checkbox" id="package23" class="form-check-input">
+                            <label for="package23" class="form-check-label"><span> Daal Moong - 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);">180</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Daal Moong - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">340</b>)</span></label>
+                            <input type="checkbox" id="package24" class="form-check-input">
+                            <label for="package24" class="form-check-label"><span> Daal Moong - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">340</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Daal Chana - 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);">175</b>)</span></label>
+                            <input type="checkbox" id="package25" class="form-check-input">
+                            <label for="package25" class="form-check-label"><span> Daal Chana - 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);">175</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Daal Chana - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">335</b>)</span></label>
+                            <input type="checkbox" id="package26" class="form-check-input">
+                            <label for="package26" class="form-check-label"><span> Daal Chana - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">335</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Daal Masoor - 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);">215</b>)</span></label>
+                            <input type="checkbox" id="package27" class="form-check-input">
+                            <label for="package27" class="form-check-label"><span> Daal Masoor - 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);">215</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Daal Masoor - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">420</b>)</span></label>
+                            <input type="checkbox" id="package28" class="form-check-input">
+                            <label for="package28" class="form-check-label"><span> Daal Masoor - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">420</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span> Daal Sabut Masoor- 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);">200</b>)</span></label>
+                            <input type="checkbox" id="package29" class="form-check-input">
+                            <label for="package29" class="form-check-label"><span> Daal Sabut Masoor- 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);">200</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span> Daal Sabut Masoor - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">390</b>)</span></label>
+                            <input type="checkbox" id="package30" class="form-check-input">
+                            <label for="package30" class="form-check-label"><span> Daal Sabut Masoor - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">390</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Daal Mash - 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);">260</b></span></label>
+                            <input type="checkbox" id="package31" class="form-check-input">
+                            <label for="package31" class="form-check-label"><span> Daal Mash - 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);">260</b></span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Daal Mash - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">520</b>)</span></label>
+                            <input type="checkbox" id="package32" class="form-check-input">
+                            <label for="package32" class="form-check-label"><span> Daal Mash - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">520</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Daal Box - 1kg x 5 (Rs.<b style="color: rgba(255, 48,0, 1);">-</b>)</span></label>
+                            <input type="checkbox" id="package33" class="form-check-input">
+                            <label for="package33" class="form-check-label"><span> Daal Box - 1kg x 5 (Rs.<b style="color: rgba(255, 48,0, 1);">-</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Besan - 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);">180</b>)</span></label>
+                            <input type="checkbox" id="package34" class="form-check-input">
+                            <label for="package34" class="form-check-label"><span> Besan - 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);">180</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Besan - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">350</b>)</span></label>
+                            <input type="checkbox" id="package35" class="form-check-input">
+                            <label for="package35" class="form-check-label"><span> Besan - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">350</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Suji - 250 gm (Rs.<b style="color: rgba(255, 48,0, 1);"></b>)</span></label>
+                            <input type="checkbox" id="package36" class="form-check-input">
+                            <label for="package36" class="form-check-label"><span> Suji - 250 gm (Rs.<b style="color: rgba(255, 48,0, 1);"></b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Suji - 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);"></b>)</span></label>
+                            <input type="checkbox" id="package37" class="form-check-input">
+                            <label for="package37" class="form-check-label"><span> Suji - 500 gm (Rs.<b style="color: rgba(255, 48,0, 1);"></b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Iodized Salt - 800 gm (Rs.<b style="color: rgba(255, 48,0, 1);">40</b>)</span></label>
+                            <input type="checkbox" id="package38" class="form-check-input">
+                            <label for="package38" class="form-check-label"><span> Iodized Salt - 800 gm (Rs.<b style="color: rgba(255, 48,0, 1);">40</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Pink Salt - 800 gm (Rs.<b style="color: rgba(255, 48,0, 1);">50</b>)</span></label>
+                            <input type="checkbox" id="package39" class="form-check-input">
+                            <label for="package39" class="form-check-label"><span> Pink Salt - 800 gm (Rs.<b style="color: rgba(255, 48,0, 1);">50</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Sugar - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">-</b>)</span></label>
+                            <input type="checkbox" id="package40" class="form-check-input">
+                            <label for="package40" class="form-check-label"><span> Sugar - 1 kg (Rs.<b style="color: rgba(255, 48,0, 1);">-</b>)</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="checkbox" id="package2" class="form-check-input">
-                            <label for="package2" class="form-check-label"><span>Sunridge Sugar - 5 kg (Rs.<b style="color: rgba(255, 48,0, 1);">-</b>)</span></label>
+                            <input type="checkbox" id="package41" class="form-check-input">
+                            <label for="package41" class="form-check-label"><span> Sugar - 5 kg (Rs.<b style="color: rgba(255, 48,0, 1);">-</b>)</span></label>
                         </li>
 
                     </ul>
@@ -337,24 +337,24 @@
                     <h1 class="pakc"><b>Quantity <span style="color: rgba(255, 48,0, 1);">*</span></b></h1>
                     <ul>
                         <li class="custom-checkbox">
-                            <input type="radio" id="package1" class="form-check-input">
-                            <label for="package1" class="form-check-label"><span>01</span></label>
+                            <input type="radio" id="quantity1" class="form-check-input">
+                            <label for="quantity1" class="form-check-label"><span>01</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="radio" id="package1" class="form-check-input">
-                            <label for="package1" class="form-check-label"><span>02</span></label>
+                            <input type="radio" id="quantity2" class="form-check-input">
+                            <label for="quantity2" class="form-check-label"><span>02</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="radio" id="package1" class="form-check-input">
-                            <label for="package1" class="form-check-label"><span>03</span></label>
+                            <input type="radio" id="quantity3" class="form-check-input">
+                            <label for="quantity3" class="form-check-label"><span>03</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="radio" id="package1" class="form-check-input">
-                            <label for="package1" class="form-check-label"><span>04</span></label>
+                            <input type="radio" id="quantity4" class="form-check-input">
+                            <label for="quantity4" class="form-check-label"><span>04</span></label>
                         </li>
                         <li class="custom-checkbox">
-                            <input type="radio" id="package1" class="form-check-input">
-                            <label for="package1" class="form-check-label"><span>05</span></label>
+                            <input type="radio" id="quantity5" class="form-check-input">
+                            <label for="quantity5" class="form-check-label"><span>05</span></label>
                         </li>
                     </ul>
                 </div>

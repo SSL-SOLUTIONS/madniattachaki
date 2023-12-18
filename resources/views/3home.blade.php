@@ -16,7 +16,7 @@
     
 
 .tips {
-    color: red;
+    color: rgba(255, 48,0, 1);;
     font-size: xx-large;
     font: xx-large;
     font-size: 40px;
@@ -33,7 +33,7 @@
 
 .roti {
     text-align: center;
-    color: red;
+    color: rgba(255, 48,0, 1);;
     font-size: 40px;
     margin-top: 20px; /* Add margin for spacing */
 }
